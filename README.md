@@ -60,7 +60,7 @@ Key features of the app include the ability to scale recipes by factors of 0.5, 
 - **Graphics Rendering**: Utilized graphics rendering services to display a pie chart representing the food group composition of selected recipes.
 - **Feedback Implementation**: Incorporated feedback from Part 2 to refine and enhance the application, ensuring a polished and functional end product.
 ## Links to Repository
-- [GitHub Repository 1](https://github.com/VCDN-2024/prog6221-part-1-ST10343093)
+- [GitHub Repository Part 1](https://github.com/VCDN-2024/prog6221-part-1-ST10343093)
  
-- [GitHub Repository 2](https://github.com/ST10343093/Progpart2.)
+- [GitHub Repository Part 2](https://github.com/ST10343093/Progpart2.)
  
