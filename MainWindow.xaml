@@ -8,8 +8,8 @@
         Title="MainWindow" Height="865" Width="1044">
     <Grid>
         <Image HorizontalAlignment="Left" Height="849" VerticalAlignment="Center" Width="1060" Source="/1.png" Stretch="Fill"/>
-        <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="336,143,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="92" Height="116" Width="422" Foreground="White"/>
-        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72"/>
+        <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="301,215,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="110" Height="151" Width="528" Foreground="White"/>
+        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,425,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72"/>
 
     </Grid>
 </Window>

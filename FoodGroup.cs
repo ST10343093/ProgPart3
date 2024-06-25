@@ -23,7 +23,7 @@ Date of Access: 25 June 2024
 namespace ProgPart3
 {//namespace begin
 
-    // Added a enum class to hold the 6 food groups
+    // Added a enum class to hold the different food groups
     public enum FoodGroup
     {//FoodGroup begin
         CARBOHYDRATE,
