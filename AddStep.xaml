@@ -10,7 +10,7 @@
         <Image HorizontalAlignment="Center" Height="481" VerticalAlignment="Top" Width="1114" Source="/1.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Center" Height="432" Stroke="Black" VerticalAlignment="Center" Width="1054" Fill="#CE000000"/>
         <Label x:Name="AddStepLabel" Content="Add New Step" HorizontalAlignment="Left" Margin="30,26,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="56,112,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
+        <Label Content="Enter the description of the  Recipe:" HorizontalAlignment="Left" Margin="56,112,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
         <TextBox x:Name="StepDescriptiontxt" HorizontalAlignment="Left" Margin="56,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="994" Height="189" FontFamily="Arial Black" FontSize="24"/>
         <Button x:Name="btnAddStep" Content="Add Step" HorizontalAlignment="Left" Margin="818,379,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="btnAddStep_Click"/>
 
