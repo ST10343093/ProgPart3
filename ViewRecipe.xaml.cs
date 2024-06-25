@@ -109,5 +109,16 @@ namespace ProgPart3
                 MessageBox.Show("Please select a scaling factor.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }//ProccedButton end
+
+        private void MainMenuButton_Click(object sender, RoutedEventArgs e)
+        {//MainMenuButton begin
+            //open the AllRecipe menu passing the current manageRecipe class as a parameter
+            var AllRecipes = new MainMenu(manageRecipe);
+            AllRecipes.Show();
+            //close thi current window
+            this.Close();
+        }//MainMenuButton end
+
+
     }//ViewRecipe Window end
 }

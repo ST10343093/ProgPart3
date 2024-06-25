@@ -11,17 +11,17 @@
         <Rectangle HorizontalAlignment="Center" Height="535" Margin="0,26,0,0" Stroke="Black" VerticalAlignment="Top" Width="1022" Fill="#CC000000"/>
         <Grid/>
         <Label Content="Recipe Details" HorizontalAlignment="Left" Margin="27,26,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
-        <Button x:Name="ScalingRecipe" Content="Scale" HorizontalAlignment="Left" Margin="46,143,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ScalingRecipe_Click"/>
+        <Button x:Name="ScalingRecipe" Content="Scale" HorizontalAlignment="Left" Margin="46,143,0,0" VerticalAlignment="Top" Height="53" Width="267" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ScalingRecipe_Click"/>
         <Button x:Name="ResetRecipeButton" Content="Reset" HorizontalAlignment="Left" Margin="46,259,0,0" VerticalAlignment="Top" Height="54" Width="267" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ResetRecipeButton_Click"/>
         <Button x:Name="ClearRecipeButton" Content="Clear" HorizontalAlignment="Left" Margin="46,361,0,0" VerticalAlignment="Top" Height="53" Width="267" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ClearRecipeButton_Click"/>
-        <Button x:Name="MainMenuButton" Content="Return to main Menu" HorizontalAlignment="Left" Margin="46,466,0,0" VerticalAlignment="Top" Height="53" Width="267" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button x:Name="MainMenuButton" Content="Return to main Menu" HorizontalAlignment="Left" Margin="46,466,0,0" VerticalAlignment="Top" Height="53" Width="267" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="MainMenuButton_Click"/>
         <Label x:Name="lblScalingFactor" Content="Select Scaling Factor:" HorizontalAlignment="Left" Margin="46,201,0,0" VerticalAlignment="Top" Foreground="White" FontFamily="Bahnschrift SemiCondensed" FontSize="15" Width="136" Visibility="Hidden"/>
         <ComboBox x:Name="FactorComboBox" HorizontalAlignment="Left" Margin="228,200,0,0" VerticalAlignment="Top" Width="50" FontFamily="Bahnschrift SemiCondensed" FontSize="16" Visibility="Hidden">
             <ComboBoxItem Content="0.5"/>
             <ComboBoxItem Content="2"/>
             <ComboBoxItem Content="3"/>
         </ComboBox>
-        <Button x:Name="ProccedButton" Content="Scale" HorizontalAlignment="Left" Margin="228,230,0,0" VerticalAlignment="Top" Background="#FFFB27D6" FontFamily="Bahnschrift SemiCondensed" Click="ProccedButton_Click" FontSize="14"/>
+        <Button x:Name="ProccedButton" Content="Scale" HorizontalAlignment="Left" Margin="228,230,0,0" VerticalAlignment="Top" Background="#FFFB27D6" FontFamily="Bahnschrift SemiCondensed" Click="ProccedButton_Click" FontSize="14" Visibility="Hidden"/>
 
         <RichTextBox x:Name="txtRecipeDetails" HorizontalAlignment="Left" Width="684" Margin="340,0,0,64" Height="393" VerticalAlignment="Bottom" Background="Black" BorderBrush="#FFFFDE02" Foreground="White" FontFamily="Arial Black" FontSize="22">
             <FlowDocument>

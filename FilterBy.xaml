@@ -10,12 +10,16 @@
         <Image HorizontalAlignment="Center" Height="737" VerticalAlignment="Center" Width="1172" Source="/1.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Center" Height="647" Stroke="Black" VerticalAlignment="Center" Width="1112" Fill="#AD000000"/>
         <Label Content="Filter Recipe" HorizontalAlignment="Left" Margin="373,10,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="46,252,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="46,389,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="46,531,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="373,119,56,153" Background="Black" BorderBrush="#FFACB3AB" FontFamily="Arial Black" FontSize="20" Foreground="White"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,614,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF2BFF00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="796,614,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFF2F00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button x:Name="NameFilterBtn" Content="Name of Ingredient" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top" Height="53" Width="275" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="NameFilterBtn_Click"/>
+        <Button x:Name="FoodGroupFilterBtn" Content="Food Group" HorizontalAlignment="Left" Margin="47,266,0,0" VerticalAlignment="Top" Height="53" Width="275" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="FoodGroupFilterBtn_Click"/>
+        <Button x:Name="CaloriesFilterBtn" Content="CaloriesFilterBtn" HorizontalAlignment="Left" Margin="47,432,0,0" VerticalAlignment="Top" Height="53" Width="276" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="CaloriesFilterBtn_Click"/>
+        <Button x:Name="ApplyFilterBtn" Content="Apply" HorizontalAlignment="Left" Margin="68,606,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFF100FF" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ApplyFilterBtn_Click"/>
+        <ListBox x:Name="lbxRecipes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="373,119,56,153" Background="Black" BorderBrush="#FFACB3AB" FontFamily="Arial Black" FontSize="20" Foreground="White"/>
+        <Button x:Name="ViewRecipeBtn" Content="View Selected Recipe" HorizontalAlignment="Center" Margin="0,614,0,0" VerticalAlignment="Top" Height="53" Width="317" Background="#FF2BFF00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="ViewRecipeBtn_Click"/>
+        <Button x:Name="MainMenuBtn" Content="Main Menu" HorizontalAlignment="Left" Margin="796,614,0,0" VerticalAlignment="Top" Height="53" Width="320" Background="#FFFF2F00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="MainMenuBtn_Click"/>
+        <TextBox x:Name="NameTxt" HorizontalAlignment="Left" Margin="78,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Height="27" FontFamily="Bahnschrift SemiBold Condensed" FontSize="18" Visibility="Hidden"/>
+        <ComboBox x:Name="cmbGroup" HorizontalAlignment="Left" Margin="74,0,0,0" VerticalAlignment="Center" Width="222" Height="27" FontFamily="Bahnschrift SemiBold Condensed" FontSize="18" Visibility="Hidden"/>
+        <TextBox x:Name="CaloriesTxt" HorizontalAlignment="Left" Margin="68,514,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="222" Height="29" FontFamily="Bahnschrift SemiBold Condensed" FontSize="22" Visibility="Hidden"/>
+
     </Grid>
 </Window>

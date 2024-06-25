@@ -5,10 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProgPart3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="865" Width="1044">
+        Title="MainWindow" Height="658" Width="1034">
     <Grid>
-        <Image HorizontalAlignment="Left" Height="849" VerticalAlignment="Center" Width="1060" Source="/1.png" Stretch="Fill"/>
-        <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="301,215,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="110" Height="151" Width="528" Foreground="White"/>
-        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,425,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72" Click="welcome_btn_Click"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="773*"/>
+            <ColumnDefinition Width="261*"/>
+        </Grid.ColumnDefinitions>
+        <Image HorizontalAlignment="Left" Height="849" VerticalAlignment="Center" Width="1060" Source="/1.png" Stretch="Fill" Grid.ColumnSpan="2"/>
+        <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="301,215,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="110" Height="151" Width="528" Foreground="White" Grid.ColumnSpan="2"/>
+        <Button x:Name="welcome_btn" Content="Proceed" HorizontalAlignment="Left" Margin="395,425,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72" Click="welcome_btn_Click"/>
     </Grid>
 </Window>
