@@ -58,7 +58,7 @@ namespace ProgPart3
             // Create the recipe object and pass the name of recipem number of ingredients and number of steps to the recipe class
             Recipe recipe = new Recipe(recipeName, numIngredients, numSteps);
             //Create AddIngreientWindow object int=stance pass number of ingreinetns and the recipe and manage recipe class as parameters,  numIngreidents will be used to llop the window to get all the ingredients input from user
-            var addIngredientsWindow = new AddIngredients(recipe, numIngredients, manageRecipes);
+            var addIngredientsWindow = new AddIngredient(recipe, numIngredients, manageRecipes);
             //Open AddIngredientsWindow and close the current window
             addIngredientsWindow.Show();
             this.Close();

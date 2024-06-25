@@ -74,8 +74,8 @@ namespace ProgPart3
                 successWindow2.Show();
 
                 //open the AllRecipe window passing the manageRecipel class as a parameter
-                var AllRecipes = new AllRecipes(manageRecipe);
-                AllRecipes.Show();
+                var mainMenu = new MainMenu(manageRecipe);
+                mainMenu.Show();
 
 
             }//else if all the steps are entered successful end
