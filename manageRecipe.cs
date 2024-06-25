@@ -7,8 +7,11 @@ using System.Windows.Controls;
 using System.Windows;
 
 namespace ProgPart3
-{// namespace ST10251759_PROG6221_POE begin
+{
     public class ManageRecepie
+
+    //ST103430893
+
     {// ManageRecepie begin
         //declare a generic collection for recipe
         public List<Recipe> Recipes { get; private set; }
