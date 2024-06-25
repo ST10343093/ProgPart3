@@ -10,11 +10,11 @@
         <Image HorizontalAlignment="Center" Height="566" VerticalAlignment="Center" Width="1250" Source="/1.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Left" Height="511" Margin="36,0,0,0" Stroke="Black" VerticalAlignment="Center" Width="1183" Fill="#CE000000"/>
         <Label Content="Main Menu" HorizontalAlignment="Center" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
-        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="64,174,53,47" Background="Black" BorderBrush="#FFACB3AB" FontFamily="Arial Black" FontSize="20" Foreground="White"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="64,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="366,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White" RenderTransformOrigin="0.726,0.324"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="673,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="965,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White"/>
+        <ListBox x:Name="lbxRecipes" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="64,174,53,47" Background="Black" BorderBrush="#FFACB3AB" FontFamily="Arial Black" FontSize="20" Foreground="White"/>
+        <Button x:Name="AddRecipeButton" Content="Add Recipe" HorizontalAlignment="Left" Margin="64,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White" Click="AddRecipeButton_Click_1"/>
+        <Button x:Name="ViewRecipeButton" Content="View Recipe" HorizontalAlignment="Left" Margin="366,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White" RenderTransformOrigin="0.726,0.324" Click="ViewRecipeButton_Click"/>
+        <Button x:Name="FilterRecipeButton" Content="Filter Recipes" HorizontalAlignment="Left" Margin="673,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White" Click="FilterRecipeButton_Click"/>
+        <Button x:Name="ExitButton" Content="Exit App" HorizontalAlignment="Left" Margin="965,99,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF4F5231" FontFamily="Arial Black" FontSize="22" BorderBrush="White" Foreground="White" Click="ExitButton_Click"/>
 
     </Grid>
 </Window>
