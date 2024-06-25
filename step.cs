@@ -14,7 +14,7 @@ Date of Access: 25 June 2024
 
 namespace ProgPart3
 {//namespace begin
-    internal class Step
+    public class Step
     {//Step class begin
         //Get Set method of attribute Description in step class
         public string Description { get; set; }
