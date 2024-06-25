@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProgPart3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPart3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="865" Width="1044">
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="849" VerticalAlignment="Center" Width="1060" Source="/1.png" Stretch="Fill"/>
+        <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="336,143,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="92" Height="116" Width="422" Foreground="White"/>
+        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,295,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72"/>
+
+    </Grid>
+</Window>
