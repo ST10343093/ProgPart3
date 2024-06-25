@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProgPart3.FilterBy"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPart3"
+        mc:Ignorable="d"
+        Title="FilterBy" Height="753" Width="1172">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="737" VerticalAlignment="Center" Width="1172" Source="/1.png" Stretch="Fill"/>
+        <Rectangle HorizontalAlignment="Center" Height="647" Stroke="Black" VerticalAlignment="Center" Width="1112" Fill="#AD000000"/>
+        <Label Content="Filter Recipe" HorizontalAlignment="Left" Margin="373,10,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,115,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,252,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,389,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,531,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <ListBox d:ItemsSource="{d:SampleData ItemCount=5}" Margin="373,119,56,153" Background="Black" BorderBrush="#FFACB3AB" FontFamily="Arial Black" FontSize="20" Foreground="White"/>
+        <Button Content="Button" HorizontalAlignment="Center" Margin="0,614,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FF2BFF00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="796,614,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFF2F00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+    </Grid>
+</Window>

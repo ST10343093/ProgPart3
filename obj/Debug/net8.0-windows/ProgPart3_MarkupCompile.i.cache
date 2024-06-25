@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\lab_services_student\source\repos\ProgPart3\App.xaml
-42003834828
+8-952274318
 
-151845964405
+19-1729284230
 198-294894759
-AddIngredient.xaml;AddRecipe.xaml;AddStep.xaml;MainWindow.xaml;
+AddIngredient.xaml;AddRecipe.xaml;AddStep.xaml;FilterBy.xaml;MainMenu.xaml;MainWindow.xaml;SuccessWindow.xaml;ViewRecipe.xaml;
 
 True
 

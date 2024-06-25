@@ -1,0 +1,27 @@
+﻿<Window x:Class="ProgPart3.ViewRecipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProgPart3"
+        mc:Ignorable="d"
+        Title="ViewRecipe" Height="616" Width="1076">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="600" VerticalAlignment="Center" Width="1076" Source="/1.png" Stretch="Fill"/>
+        <Rectangle HorizontalAlignment="Center" Height="535" Margin="0,26,0,0" Stroke="Black" VerticalAlignment="Top" Width="1022" Fill="#CC000000"/>
+        <Grid/>
+        <Label Content="Recipe Details" HorizontalAlignment="Left" Margin="27,26,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,143,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,240,0,0" VerticalAlignment="Top" Height="54" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,361,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,466,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <RichTextBox HorizontalAlignment="Left" Width="684" Margin="340,0,0,64" Height="393" VerticalAlignment="Bottom" Background="Black" BorderBrush="#FFFFDE02" Foreground="White" FontFamily="Arial Black" FontSize="22">
+            <FlowDocument>
+                <Paragraph>
+                    <Run Text="RichTextBox"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+
+    </Grid>
+</Window>
