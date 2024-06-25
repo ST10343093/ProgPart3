@@ -7,12 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="AddIngredient.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="AddRecipe.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AddStep.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="AddIngredient.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AddRecipe.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddStep.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
