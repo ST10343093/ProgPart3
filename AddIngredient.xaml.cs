@@ -14,9 +14,71 @@ using System.Windows.Shapes;
 
 namespace ProgPart3
 {
-    /// <summary>
-    /// Interaction logic for AddIngredient.xaml
-    /// </summary>
+
+
+
+                /*
+            =============Code Attribution====================
+            Author: Microsoft
+            Website: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0
+            Date of Access: 22 June 2024
+
+            Author: tutorialspoint
+            Website: https://www.tutorialspoint.com/wpf/index.htm
+            Date of Access: 22 June 2024     
+
+            =============Code Attribution====================
+            */
+
+
+                /*  Code attribution
+            *  The follwing code was taken from StackOverFlow:
+            *  Link : https://stackoverflow.com/questions/2552501/switch-statement-in-c-sharp
+            *  switch (x)
+            {
+            case 1:
+            //do something
+            break;
+            case 2..8:
+            //do something else
+            break;
+            default:
+            break;
+            }
+
+
+            The follwing code was taken from StackOverFlow:
+            *  Link : https://stackoverflow.com/questions/14973642/how-using-try-catch-for-exception-handling-is-best-practice
+            *  try
+            {
+            //do something
+            }
+            catch
+            {
+            //Do nothing
+            } 
+            *  
+            *  The follwing code was taken from StackOverFlow:
+            *  Link : The follwing code was taken from StackOverFlow: 
+            *  https://stackoverflow.com/questions/14973642/how-using-try-catch-for-exception-handling-is-best-practice
+            * 
+            *   for (i=0 ; i<=10; i++)
+            {
+            ..
+            ..
+            }
+
+            i=0;
+            while(i<=10)
+            {
+            ..
+            ..
+            i++;
+            }
+            END
+            */
+
+
     public partial class AddIngredient : Window
         {//AddIngredients Window begin
 

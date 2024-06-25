@@ -11,9 +11,24 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ProgPart3
-{
+
+
+        {
+            /*
+            =============Code Attribution====================
+        Author: Microsoft
+        Website: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0
+        Date of Access: 25 June 2024
+
+        Author: tutorialspoint
+        Website: https://www.tutorialspoint.com/wpf/index.htm
+        Date of Access: 25 June 2024     
+
+        =============Code Attribution====================
+*/
     /// <summary>
     /// Interaction logic for AddStep.xaml
     /// </summary>

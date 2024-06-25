@@ -17,6 +17,56 @@ namespace ProgPart3
     /// <summary>
     /// Interaction logic for SuccessWindow.xaml
     /// </summary>
+    /// 
+
+
+    /*  Code attribution
+        *  The follwing code was taken from StackOverFlow:
+        *  Link : https://stackoverflow.com/questions/2552501/switch-statement-in-c-sharp
+        *  switch (x)
+        {
+        case 1:
+        //do something
+        break;
+        case 2..8:
+        //do something else
+        break;
+        default:
+        break;
+        }
+
+
+        The follwing code was taken from StackOverFlow:
+        *  Link : https://stackoverflow.com/questions/14973642/how-using-try-catch-for-exception-handling-is-best-practice
+        *  try
+        {
+        //do something
+        }
+        catch
+        {
+        //Do nothing
+        } 
+        *  
+        *  The follwing code was taken from StackOverFlow:
+        *  Link : The follwing code was taken from StackOverFlow: 
+        *  https://stackoverflow.com/questions/14973642/how-using-try-catch-for-exception-handling-is-best-practice
+        * 
+        *   for (i=0 ; i<=10; i++)
+        {
+        ..
+        ..
+        }
+
+        i=0;
+        while(i<=10)
+        {
+        ..
+        ..
+        i++;
+        }
+        END
+        */
+
     public partial class SuccessWindow : Window
     {//SuccessWindow Begin
         //constructor that passing the string parameter containing the message that the successWindow label will display when this window is call/opened

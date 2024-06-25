@@ -14,6 +14,22 @@ using System.Windows.Shapes;
 
 namespace ProgPart3
 {
+
+
+
+                /*
+            =============Code Attribution====================
+            Author: Microsoft
+            Website: https://learn.microsoft.com/en-us/dotnet/desktop/wpf/overview/?view=netdesktop-8.0
+            Date of Access: 24 June 2024
+
+            Author: tutorialspoint
+            Website: https://www.tutorialspoint.com/wpf/index.htm
+            Date of Access: 24 June 2024     
+
+            =============Code Attribution====================
+            */
+
     /// <summary>
     /// Interaction logic for AddRecipe.xaml
     /// </summary>
