@@ -12,19 +12,19 @@
             <ColumnDefinition Width="1081*"/>
         </Grid.ColumnDefinitions>
         <Image HorizontalAlignment="Left" Height="654" VerticalAlignment="Center" Width="1126" Source="/1.png" Stretch="Fill" Grid.ColumnSpan="2"/>
-        <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="587" Margin="0,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="1003" Fill="#96000000"/>
-        <Label Content="Add New Ingredient" HorizontalAlignment="Left" Margin="58,24,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62" Grid.Column="1"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="76,142,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="76,218,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="76,0,0,0" VerticalAlignment="Center" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="76,378,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="76,454,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="790,535,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="693,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="693,218,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="693,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="348" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="693,378,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
-        <TextBox HorizontalAlignment="Left" Margin="693,454,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="348" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Rectangle Grid.Column="1" HorizontalAlignment="Center" Height="620" Margin="0,24,0,0" Stroke="Black" VerticalAlignment="Top" Width="1099" Fill="#96000000"/>
+        <Label x:Name="AddIngredientLabel" Content="Add New Ingredient" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62" Grid.Column="1"/>
+        <Label Content="Enter the name of the  Ingredient:" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Label Content="Enter the quantity of ingredient:" HorizontalAlignment="Left" Margin="10,225,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Label Content="Enter the unit of measurement:" HorizontalAlignment="Left" Margin="10,308,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Label Content="Enter the Food Group:" HorizontalAlignment="Left" Margin="3,398,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Label Content="Enter the no. of calories:" HorizontalAlignment="Left" Margin="10,480,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <Button x:Name="btnAddIngredient" Content="Add Ingredient" HorizontalAlignment="Left" Margin="809,563,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Grid.Column="1" Click="btnAddIngredient_Click"/>
+        <TextBox x:Name="IngredientNameTextBox" HorizontalAlignment="Left" Margin="719,142,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <TextBox x:Name="Quantitytxt" HorizontalAlignment="Left" Margin="719,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="366" Height="50" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <TextBox x:Name="NumCaloriestxt" HorizontalAlignment="Left" Margin="693,454,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="392" Height="51" FontFamily="Arial Black" FontSize="36" Grid.Column="1"/>
+        <ComboBox x:Name="unitComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="851,0,0,0" VerticalAlignment="Center" Width="234" Height="44" FontFamily="Arial Black" FontSize="20"/>
+        <ComboBox x:Name="foodGroupComboBox" Grid.Column="1" HorizontalAlignment="Left" Margin="851,380,0,0" VerticalAlignment="Top" Width="234" Height="44" FontFamily="Arial Black" FontSize="20"/>
 
     </Grid>
 </Window>

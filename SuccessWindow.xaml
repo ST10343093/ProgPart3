@@ -9,7 +9,7 @@
     <Grid>
         <Image HorizontalAlignment="Center" Height="370" VerticalAlignment="Center" Width="761" Source="/1.png" Stretch="Fill"/>
         <Rectangle HorizontalAlignment="Center" Height="333" Stroke="Black" VerticalAlignment="Center" Width="692" Fill="#C3000000"/>
-        <Label Content="Recipe Details" HorizontalAlignment="Left" Margin="36,46,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="55"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFF2F00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Label x:Name="SuccessMessagelbl" Content="Recipe Details" HorizontalAlignment="Left" Margin="36,46,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="55"/>
+        <Button x:Name="Close_btn" Content="Close" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFF2F00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="Close_btn_Click"/>
     </Grid>
 </Window>
