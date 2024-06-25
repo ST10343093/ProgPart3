@@ -9,7 +9,6 @@
     <Grid>
         <Image HorizontalAlignment="Left" Height="849" VerticalAlignment="Center" Width="1060" Source="/1.png" Stretch="Fill"/>
         <Label Content="CuiseCrafting" HorizontalAlignment="Left" Margin="301,215,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift Condensed" FontSize="110" Height="151" Width="528" Foreground="White"/>
-        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,425,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72"/>
-
+        <Button x:Name="welcome_btn" Content="Welcome" HorizontalAlignment="Center" Margin="0,425,0,0" VerticalAlignment="Top" Height="99" Width="244" Background="#FFEDC72D" FontFamily="Bahnschrift Condensed" FontSize="72" Click="welcome_btn_Click"/>
     </Grid>
 </Window>

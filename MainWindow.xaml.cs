@@ -20,5 +20,12 @@ namespace ProgPart3
         {
             InitializeComponent();
         }
+
+        private void welcome_btn_Click(object sender, RoutedEventArgs e)
+        {
+            AddRecipe addRecipe = new AddRecipe();
+            addRecipe.Show();
+            this.Close();
+        }
     }
 }
