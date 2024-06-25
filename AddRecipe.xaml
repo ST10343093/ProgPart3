@@ -11,12 +11,12 @@
         <Rectangle HorizontalAlignment="Left" Height="531" Margin="28,0,0,0" VerticalAlignment="Center" Width="1239" Stroke="Black" Fill="#9F000000"/>
         <Label Content="Add New Recipe" HorizontalAlignment="Left" Margin="28,29,0,0" VerticalAlignment="Top" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="62"/>
         <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="70,180,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="70,274,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
-        <Label Content="Enter the name of the  Recipe:" HorizontalAlignment="Left" Margin="70,366,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Margin="706,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Margin="706,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
-        <TextBox HorizontalAlignment="Left" Margin="706,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="976,470,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000"/>
+        <Label Content="Enter the no. of ingredients:" HorizontalAlignment="Left" Margin="70,274,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
+        <Label Content="Enter the no. of Steps:" HorizontalAlignment="Left" Margin="70,366,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="White" FontFamily="Arial Black" FontSize="36"/>
+        <TextBox x:Name="RecipeNameTextBox" HorizontalAlignment="Left" Margin="706,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
+        <TextBox x:Name="NumIngredientstxt" HorizontalAlignment="Left" Margin="706,276,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
+        <TextBox x:Name="NumStepstxt" HorizontalAlignment="Left" Margin="706,366,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="541" Height="51" FontFamily="Arial Black" FontSize="36"/>
+        <Button x:Name="btnAddRecipe" Content="Add Recipe" HorizontalAlignment="Left" Margin="976,470,0,0" VerticalAlignment="Top" Height="53" Width="232" Background="#FFFFEA00" FontFamily="Arial Black" FontSize="22" BorderBrush="#FF060000" Click="btnAddRecipe_Click"/>
 
     </Grid>
 </Window>
